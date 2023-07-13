@@ -26,4 +26,4 @@ read_syslog() {
 }
 
 # Запускаем функцию чтения системного журнала в фоновом режиме
-nohup read_syslog > /dev/null 2>&1 &
+read_syslog
